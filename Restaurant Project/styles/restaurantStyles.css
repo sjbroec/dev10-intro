@@ -1,0 +1,72 @@
+/*
+Creator: Signe Broecker
+Date Created: 1.22.2019
+Date Last Modified: 1.24.2019
+*/
+
+header, footer {
+  background-color:rgba(147, 168, 172, 1);
+  color:rgba(232, 241, 242, 1);
+  text-align: center;
+  max-width:900px;
+  padding: 30px 10px 5px 10px
+}
+
+body {
+  background-color:rgba(147, 168, 172, 1);
+  color: rgba(232, 241, 242, 1);
+  font-family: 'Roboto', sans-serif;
+}
+
+/*put this after the body text type to ensure it applied only to h1*/
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+  }
+
+
+h2 {
+    color: rgba(255, 255, 255, 1);
+      }
+
+h3 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.3em;
+    font-weight:bold;
+      }
+h4 {
+  font-weight: lighter;
+}
+
+nav a {
+  background-color: rgba(255, 255, 255, 1);
+  color:rgba(76, 91, 97, 1);
+  padding: 10px;
+  border: thin solid rgba(42, 50, 75, 1);
+  text-decoration:none;
+  text-align: center;
+  display:block;
+  margin:20px;
+  width:100px;
+  float:left;
+}
+
+/*put the color change for visited pages before the hover rules to ensure it applied*/
+
+nav a:visited {
+  color:rgba(252, 159, 91, 1););
+}
+
+nav a:hover {
+  background-color:rgba(76, 91, 97, 1);
+  color: rgba(255, 255, 255, 1);
+  font-weight:bold;
+}
+nav a:active {
+  color:rgba(42, 50, 75, 1);
+}
+
+
+.clear-float {
+  clear:both;
+}

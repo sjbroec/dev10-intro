@@ -1,13 +1,46 @@
 <!DOCTYPE html>
 <!--
   Name:Signe Broecker
-  Date Created:01.17.2020
-  Most recent revision: 01.16.2020
+  Date Created:01.16.2020
+  Most recent revision: 01.20.2020
   -->
 
 <html lang="en">
 <head>
-  <title><Signe's Portfolio</title>
+  <title>Signe's Portfolio</title>
+  <link href="styles/main.css" rel="stylesheet" type="css/text">
+</head>
+
+  <style>
+    caption {
+      font-weight: bold;
+      font-size: 1.3em;
+      margin-bottom:8px;
+    }
+    table, th, td {
+      border: 1px solid rgba(54, 70, 82, 1);
+      border-collapse: collapse;
+      padding:5px 10px;
+    }
+    table {
+      width: 90%;
+      margin: auto;
+    }
+    tr {
+      height: 30px;
+    }
+    th {
+      background-color: rgba(72, 67, 73, 1);
+      color: rgba(231, 229, 223, 1);
+    }
+    tr:nth-child(odd) {
+      background-color: rgba(211, 208, 203, 1);
+    }
+    tr:nth-child(even) {
+      background-color:rgba(231, 229, 223, 1);
+    }
+
+  </style>
   </head>
 
   <body>
@@ -15,7 +48,6 @@
       <h1 id="target">Portfolio for Signe Broecker</h1>
     </header>
 
-    <hr />
     <nav>
       <!--We need to add links to projects.html, contact.html, and testimonials.html -->
       <ul>
@@ -23,29 +55,38 @@
         <p><a href="testimonials.html">Testimonials</a></p>
         <p><a href="contact.html">Contact Information</a></p>
       </ul>
+
+    <div class="clear-float"></div>
     </nav>
-      <hr />
+
 
     <section>
-      <article id="aboutme">
+    <article id="aboutme">
       <h2><em>About Me</em></h2>
-      <img src="images/profile.jpg" alt="Signe Broecker Portrait" />
+      <img src="images/profile.jpg" alt="Signe Broecker Portrait" width="200">
       <p> I am a <strong>marketing</strong> major, turned financial services professional. I went to <span style="background-color:lightblue; border: thin solid darkblue";>UMD</span> </p>
       <p> Paragraph 2 about me </p>
       <p><a href="https://twitter.com/signejoann"><em>My twitter</em></a></p>
 
+      <div class="clear-float"></div>
+    </article>
+
       <article id="pastexperiences">
       <h2><em>Past Experiences</em></h2>
-      <img src="images/bulldogpastexperiences.jpg" alt="Photo of Signe wearing UMD Bulldog gear" />
+      <img src="images/bulldogpastexperiences.jpg" alt="Photo of Signe wearing UMD Bulldog gear" width="200">
 
+      <div class="right-content">
       <table>
           <caption>Employment History</caption>
+          <thead>
             <tr>
             <th>Years of Experience</th>
             <th>Company</th>
             <th>Title</th>
             </tr>
+          </thead>
 
+          <tbody>
             <tr>
               <td>2015-Present</ td>
               <td>Ameriprise Financial</td>
@@ -71,16 +112,19 @@
               <td>University of MN Duluth</td>
               <td>Student</td>
             </tr>
+          </tbody>
 
       </table>
-
-      <p> Paragraph 1 describing experiences </p>
-      <p> Paragraph 2 describing experiences </p>
+      <!--closing the div above table-->
+      </div>
+      <div class="clear-float"></div>
       </article>
 
       <article id="hobbies">
       <h2><em>Hobbies</em></h2>
-      <img src="images/hobbies.jpg" alt="Photo of Signe and friends at Oktoberfest in Munich, Germany" />
+      <img src="images/hobbies.jpg" alt="Photo of Signe and friends at Oktoberfest in Munich, Germany" width="200">
+
+      <div class="right-content">
       <ul>
         <li>Favorite Places I've Traveled</li>
           <ol>
@@ -110,12 +154,9 @@
             <li>Kayaking</li>
           </ul>
       </ul>
+    </div>
 
-
-
-
-      <p> Paragraph 1 describing hobbies </p>
-      <p> Paragraph 2 describing hobbies </p>
+      <div class="clear-float"></div>
       </article>
 
     </section>
@@ -124,8 +165,8 @@
       <p><a href="#target">Click here to go to top of page</a></p>
 
     <footer>
-      <hr />
       <p>&copy; 2020 Signe Broecker. All rights reserved.</p>
+    </footer>
 
       </body>
     </html>

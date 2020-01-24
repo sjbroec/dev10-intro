@@ -2,76 +2,161 @@
 <!--
   Name: Signe Broecker
   Date created: 01.18.2020
-  Most recent revision: 01.17.2020
+  Most recent revision: 01.24.2020
 -->
 
 <html lang="en">
 
   <head>
     <title>Jeffy D's Menu</title>
+    <link href="styles/restaurantstyles.css" rel="stylesheet" type="css/text">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto&display=swap" rel="stylesheet">
+
+    <style>
+
+    body {
+      background-color: rgba(147, 168, 172, 1);
+    }
+
+    h2 {
+      color: rgba(255, 255, 255, 1);
+    }
+
+    h3 {
+      color: rgba(255, 255, 255, 1);
+      font-size: 1.3em;
+      font-weight:bold;
+    }
+
+
+    dt {
+      font-size:1.1em;
+      font-weight:bold;
+      margin-bottom: 2px;
+      color: rgba(255, 255, 255, 1);
+      text-indent: 2.5%;
+    }
+
+    dd {
+      margin-bottom:8px;
+    }
+
+    table {
+      no-border;
+      padding: 5px 10px
+    }
+
+    td {
+      font-size:1.1em;
+      padding: 10px;
+    }
+
+    tr:nth-child(odd) {
+      background-color:rgba(160, 178, 178, 1);
+    }
+
+    tr:nth-child(even) {
+      background-color: rgba(169, 188, 188, 1);
+    }
+
+    li {
+      font-size:1.1em;
+    }
+
+    </style>
   </head>
 
   <body>
-    <h1>Jeffy D's Pancake Palace</h1>
-    <h4><em>A Fast-Causal Breakfast Experience</em></h4>
-    <hr>
+    <header>
+    <h1>jeffy d's pancake palace</h1>
+    <h4>a fast-causal breakfast experience</h4>
+    </header>
 
     <nav>
-      <p><a href="home.html">Home</a></p>
-      <p><a href="menu.html">Menu</a></p>
-      <p><a href="contact.html">Contact Us</a></p>
+      <p><a href="home.html">home</a></p>
+      <p><a href="menu.html">menu</a></p>
+      <p><a href="contact.html">contact us</a></p>
+      <div class="clear-float";></div>
     </nav>
-    <hr>
 
     <section>
-    <h2>Create-You-Own-Entree</h2>
-      <h3>1. Pick your base</h3>
-        <ul>
-          <li>Buttermilk Pancake</li>
-          <li>Waffle</li>
-          <li>Whole-wheat waffle</li>
-          <li>Buckwheat Pancake</li>
-          <li>Sweet crepes (2)</li>
-        </ul>
-      <h3>2. Pick Your Toppings</h3>
-        <table border=".5">
+    <h2>create-your-own entree</h2>
+      <h3>1. pick your base</h3>
+        <dl>
+          <dt>buttermilk pancakes</dt>
+            <dd>Fluffy buttermilk pancakes, just like grandma used to make.</dd>
+          <dt>waffle</dt>
+            <dd>Crunchy exterior with a perfectly fluffy middle. Not your average Eggo.</dd>
+          <dt>whole-wheat waffle</dt>
+            <dd>Light and crispy, you'd never guess it's 100% whole wheat.</dd>
+          <dt>buckwheat pancakes</dt>
+            <dd>Made with 100% buckwheat flour but just as fluffy as our original, a great way to get in some extra whole grains.</dd>
+          <dt>sweet crepes (2)</dt>
+            <dd>Made fresh to order, dusted with powdered sugar and rolled to perfection.</dd>
+        </dl>
+
+      <h3>2. pick your toppings</h3>
+        <table>
           <tr>
-            <td>Fresh fruit</td>
-            <td>Nutella</td>
-            <td>Fruit Compote</td>
-            <td>Butter</td>
+            <td>fresh fruit</td>
+            <td>nutella</td>
+            <td>fruit compote</td>
+            <td>butter</td>
           </tr>
           <tr>
-            <td>Chocolate chips</td>
-            <td>Banana</td>
-            <td>Peanut Butter</td>
-            <td>Streusel</td>
+            <td>chocolate chips</td>
+            <td>banana</td>
+            <td>peanut butter</td>
+            <td>streusel</td>
           </tr>
           <tr>
-            <td>Hot Fudge</td>
-            <td>Yogurt</td>
-            <td>Chopped Nuts</td>
-            <td>Fruit Jam</td>
+            <td>hot fudge</td>
+            <td>yogurt</td>
+            <td>chopped nuts</td>
+            <td>fruit jam</td>
           </tr>
         </table>
-      <h3>3. Pick 2 Sides</h3>
+
+      <h3>3. pick two sides</h3>
         <ul>
-          <li>Bacon</li>
-          <li>Sausage</li>
-          <li>Fresh Fruit</li>
-          <li>Hasbrowns</li>
-          <li>Toast (white, rye, or sourdough)
+          <li>bacon</li>
+          <li>sausage</li>
+          <li>fresh fruit</li>
+          <li>hashbrowns</li>
+          <li>toast (white, rye, or sourdough)
         </ul>
-      <h3>4. Top it off!</h3>
+      <h3>4. top it off!</h3>
         <ul>
-          <li>Maple Syrup (Regular or Bourbon)</li>
-          <li>Fruit Syrup (Blueberry, raspberry, mixed berry)</li>
-          <li>Fresh Whipped Cream</li>
-          <li>Powdered Sugar
+          <li>maple syrup (original or bourbon)</li>
+          <li>fruit syrup (blueberry, raspberry, mixed berry)</li>
+          <li>fresh whipped cream</li>
+          <li>powdered sugar
         </ul>
 
+      <table>
+        <th><h3>beverages</h3><th>
+          <tr>
+            <td>fresh coffee</td>
+            <td>$2</td>
+          </tr>
+            <td>fresh squeezed OJ</td>
+            <td>$4</td>
+          <tr>
+            <td>chocolate milk</td>
+            <td>$2</td>
+          <tr>
+            <td>mimosa</td>
+            <td>$7</td>
+          </tr>
+          <tr>
+            <td>bloody mary</td>
+            <td>$8</td>
+          </tr>
 
-    <hr>
+      </table>
+
+
+
     <footer>
       <p>534 Maple Syrup Lane Candyland, TN 00130</p>
       <p>555.328.6333</p>
