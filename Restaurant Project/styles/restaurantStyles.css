@@ -1,7 +1,7 @@
 /*
 Creator: Signe Broecker
 Date Created: 1.22.2019
-Date Last Modified: 1.24.2019
+Date Last Modified: 1.25.2019
 */
 
 header, footer {
@@ -16,6 +16,8 @@ body {
   background-color:rgba(147, 168, 172, 1);
   color: rgba(232, 241, 242, 1);
   font-family: 'Roboto', sans-serif;
+  max-width:900px;
+  margin:0 auto;
 }
 
 /*put this after the body text type to ensure it applied only to h1*/
@@ -41,7 +43,7 @@ h4 {
 nav a {
   background-color: rgba(255, 255, 255, 1);
   color:rgba(76, 91, 97, 1);
-  padding: 10px;
+  padding: 15px;
   border: thin solid rgba(42, 50, 75, 1);
   text-decoration:none;
   text-align: center;
@@ -49,6 +51,7 @@ nav a {
   margin:20px;
   width:100px;
   float:left;
+
 }
 
 /*put the color change for visited pages before the hover rules to ensure it applied*/
@@ -61,11 +64,33 @@ nav a:hover {
   background-color:rgba(76, 91, 97, 1);
   color: rgba(255, 255, 255, 1);
   font-weight:bold;
+  text-decoration:none;
 }
 nav a:active {
   color:rgba(42, 50, 75, 1);
+  text-decoration:none;
 }
 
+.jumbotron {
+  background-color: rgba(87, 115, 122, 1);
+  color: rgba(255, 255, 255, 1);
+  max-width: 900px;
+  padding: 20px;
+  display: block;
+  font-weight: lighter;
+}
+
+.btn {
+ badge-pill;
+}
+
+.material-icons {
+  background-color:
+}
+
+.required {
+  font-weight:bold;
+}
 
 .clear-float {
   clear:both;

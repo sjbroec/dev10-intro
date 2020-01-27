@@ -3,57 +3,109 @@
 <!--
   Name:Signe Broecker
   Date Created: 01.17.2020
-  Most recent revision: 01.24.2020
+  Most recent revision: 01.25.2020
 -->
 
 <html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intitial-scale=1, sthrink-to-fit=no">
     <title>Jeffy D's </title>
-    <link href="styles/restaurantStyles.css" rel="stylesheet" type="css/text">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
     <style>
 
+    img {
+      padding: 20px;
+    }
 
     .credit {
       font-size: .5em;
     }
 
     </style>
+
   </head>
 
   <body>
+    
+    <!--JavaScript enabled message-->
+    <noscript>
+      <p>This site works best with JavaScript enabled</p>
+    </noscript>
+    <script language="JavaScript">
+      document.write(
+        <p>You have JavaScript enabled</p>;
+      )
+    </script>
+    <div class="container">
+    <header class="jumbotron">
+      <h5>Now opening our first international location in Montreal!</h5>
+    </header>
     <header>
     <h1><strong> jeffy d's pancake palace</strong></h1>
       <h4>a fast-casual breakfast experience</h4>
     </header>
 
     <nav>
-      <p><a href=home.html>home</a></p>
-      <p><a href=menu.html>menu</a></p>
-      <p><a href=contact.html>contact us</a></p>
+    <div class="row">
+      <div class="col-lg col-md col-sm">
+      <p><a class="btn" href="home.html"><i class="material-icons">home</i></a></p>
+      </div>
+      <div class="col-lg col-md col-sm">
+      <p><a class="btn" href=menu.html>menu</a></p>
+      </div>
+      <div class="col-lg col-md col-sm">
+      <p><a class="btn" href=contact.html>contact us</a></p>
       <div class="clear-float"></div>
-    </nav>
+      </div>
+    </div>
+  </nav>
 
 
-    <img src="images/pancake.jpg" alt="Pancake topped with nutella and blueberries" style="float:right;">
-
+  <div class="row">
+    <div class="col-lg-4 col-md-5 col-sm-6">
+    <img src="images/pancake.jpg" alt="Pancake topped with nutella and blueberries" class="img-fluid" style="float:left;">
+    <p class="credit" style="float:left; padding:20px;">Photo by Olena Sergienko on <a href="https://unsplash.com">Unsplash</a></p>
+    </div>
     <div class=clear-float;></div>
 
 
+    <div class="col-lg-8 col-md-7 col-sm-6">
     <section>
       <article id="restaurantDescription">
         <h2>restaurant description</h2>
 
           <p>Jeffy D's was founded in 2010 in Robbinsdale, Minnesota. Tired of the average pancake house and fast food options, Jeff Dean introduced a fast-casual breakfast option to the market while maintaining a small-town diner feel. His concept brought together a passion for food and a . Using a familiar layout, Jeff was able to create a healthy, customizable way to eat breakfast all day long. </p>
           <p> Now more than 500 restaurants strong, Jeffy D's is thriving. Each restaurant features more than 2000 customizable flavor combinations and allows you to choose your own breakfast adventure.</p>
-          <h4 class="visit"><a href="contact.html">visit us today!</a></h4>
       </article>
-      <br>
-      <br>
-      <p class="credit" style="float:right;">Photo by Olena Sergienko on <a href="https://unsplash.com">Unsplash</a></p>
+          <!--rotating carousel-->
+
+            <div id="newsCarousel" class="carousel slide" data-ride="carousel"
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <h4 class="d-block w-100" style="text-align:center;">We're opening a new location!</h4>
+                  </div>
+                  <div class="carousel-item">
+                    <h4 class="d-block w-100" style="text-align:center;">We're rolling out our seasonal menu with special options for this season.</h4>
+                  </div>
+                  <div class="carousel-item">
+                    <h4 class="d-block w-100" style="text-align:center;">The Drink of the Month is SG Special Brew.</h4>
+                  </div>
+                </div>
+
+            </div>
+
     </section>
     <div class="clear-float"></div>
-
+  </div>
+<!--div for the div class="row"-->
+</div>
+<section>
   <hr>
 
     <footer>
@@ -63,7 +115,12 @@
       <hr>
       <p>&copy; 2020 Signe Broecker. All rights reserved.
     </footer>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
+
+
+  </div>
 
 </html>

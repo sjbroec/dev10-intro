@@ -2,15 +2,20 @@
 <!--
   Name: Signe Broecker
   Date created: 01.18.2020
-  Most recent revision: 01.24.2020
+  Most recent revision: 01.25.2020
 -->
 
 <html lang="en">
 
   <head>
-    <title>Jeffy D's Menu</title>
-    <link href="styles/restaurantstyles.css" rel="stylesheet" type="css/text">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intitial-scale=1, sthrink-to-fit=no">
+    <title>Jeffy D's </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 
     <style>
 
@@ -67,32 +72,77 @@
   </head>
 
   <body>
+    
+    <!--JavaScript enabled message-->
+    <noscript>
+      <p>This site works best with JavaScript enabled</p>
+    </noscript>
+    <script language="JavaScript">
+      document.write(
+        <p>You have JavaScript enabled!</p>;
+      )
+    </script>
+
+    <div class="container">
+    <header class="jumbotron">
+      <h5>Now opening our first international location in Montreal!</h5>
+    </header>
     <header>
     <h1>jeffy d's pancake palace</h1>
     <h4>a fast-causal breakfast experience</h4>
     </header>
 
     <nav>
-      <p><a href="home.html">home</a></p>
-      <p><a href="menu.html">menu</a></p>
-      <p><a href="contact.html">contact us</a></p>
-      <div class="clear-float";></div>
+      <div class="row">
+      <div class="col-lg col-md col-sm">
+      <p><a class="btn" href="home.html"><i class="material-icons">home</i></a></p>
+      </div>
+      <div class="col-lg col-md col-sm">
+      <p><a class="btn" href=menu.html>menu</a></p>
+      </div>
+      <div class="col-lg col-md col-sm">
+      <p><a class="btn" href=contact.html>contact us</a></p>
+      </div>
+
     </nav>
 
+    <div class="clear-float"></div>
+  </div>
+
     <section>
+
     <h2>create-your-own entree</h2>
       <h3>1. pick your base</h3>
         <dl>
+          <div class="row">
+          <div class="col-lg col-md col-sm">
           <dt>buttermilk pancakes</dt>
             <dd>Fluffy buttermilk pancakes, just like grandma used to make.</dd>
+          </div>
+          <div class="col-lg col-md col-sm">
           <dt>waffle</dt>
             <dd>Crunchy exterior with a perfectly fluffy middle. Not your average Eggo.</dd>
+          </div>
+          <div class="col-lg col-md col-sm">
           <dt>whole-wheat waffle</dt>
             <dd>Light and crispy, you'd never guess it's 100% whole wheat.</dd>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg col-md col=sm">
           <dt>buckwheat pancakes</dt>
             <dd>Made with 100% buckwheat flour but just as fluffy as our original, a great way to get in some extra whole grains.</dd>
+          </div>
+          <div class="col-lg col-md col=sm">
           <dt>sweet crepes (2)</dt>
             <dd>Made fresh to order, dusted with powdered sugar and rolled to perfection.</dd>
+          </div>
+          <div class="col-lg col-md col-sm">
+          <dt>lefse<dt>
+            <dd>Handmade fresh lefse, made fresh every day</dd>
+          </div>
+        </div>
+      </div>
         </dl>
 
       <h3>2. pick your toppings</h3>
@@ -118,19 +168,34 @@
         </table>
 
       <h3>3. pick two sides</h3>
+
         <ul>
+          <div class="row">
+          <div class="col-lg col-md col-sm">
           <li>bacon</li>
           <li>sausage</li>
-          <li>fresh fruit</li>
+          <li>ham steak</li>
+        </div>
+        <div class="col-lg col-md col-sm">
           <li>hashbrowns</li>
-          <li>toast (white, rye, or sourdough)
+          <li>toast (white, rye, or sourdough)</li>
+          <li>fresh fruit</li>
+        </div>
+        </div>
         </ul>
+
       <h3>4. top it off!</h3>
         <ul>
+        <div class="row">
+          <div class="col-lg col-md col-sm">
           <li>maple syrup (original or bourbon)</li>
           <li>fruit syrup (blueberry, raspberry, mixed berry)</li>
+          </div>
+          <div class="col-lg col-md col-sm">
           <li>fresh whipped cream</li>
           <li>powdered sugar
+          <div>
+        </div>
         </ul>
 
       <table>
@@ -163,6 +228,12 @@
       <hr>
       <p>&copy; 2020 Signe Broecker. All rights reserved.</p>
     </footer>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
 
 </html>
